@@ -1,13 +1,13 @@
-(lookup_definition "Lookup" @keyword)
-(lookup_definition ":" @punctuation.delimiter)
-(lookup_definition (identifier) @type)
+(lookup_definition_header "Lookup" @keyword)
+(lookup_definition_header ":" @punctuation.delimiter)
+(lookup_definition_header (identifier) @type)
 
-(format_definition "Format" @keyword)
-(format_definition ":" @punctuation.delimiter)
-(format_definition (identifier) @type)
+(format_definition_header "Format" @keyword)
+(format_definition_header ":" @punctuation.delimiter)
+(format_definition_header (identifier) @type)
 
-(display_header "Display" @keyword)
-(display_header ":" @punctuation.delimiter)
+(display_definition_header "Display" @keyword)
+(display_definition_header ":" @punctuation.delimiter)
 
 (lookup_statement "=" @punctuation)
 (lookup_statement

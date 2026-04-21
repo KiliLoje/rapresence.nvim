@@ -7,7 +7,7 @@ function M.setup()
 			require("nvim-treesitter.parsers").rapresence = {
 				install_info = {
 					url = "https://github.com/KiliLoje/tree-sitter-rapresence",
-					revision = "v1.0.0",
+					branch = 'master',
 					generate = true,
 				},
 				filetype = "rapresence",
